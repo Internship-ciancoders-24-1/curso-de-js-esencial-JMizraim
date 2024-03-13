@@ -22,3 +22,5 @@ async function getCharacteresAsync() {
     console.log(`An error occurred. We could not get the character ${id}`);
   }
 }
+
+getCharacteresAsync();
